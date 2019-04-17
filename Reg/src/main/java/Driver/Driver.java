@@ -8,7 +8,7 @@ public class Driver {
 
     private String driverFirstName, driverLastName;
     private int age;
-    private long id;
+    private String id;
     private long registration_no;
 
     private Set<Officer> officers;
@@ -31,53 +31,50 @@ public class Driver {
         return driverFirstName;
     }
 
-    public void setDriverFirstName(String driverFirstName) {
-        this.driverFirstName = driverFirstName;
-    }
 
     public String getDriverLastName() {
         return driverLastName;
     }
 
 
-       public void setDriverLastName(String driverLastName) {
-        this.driverLastName = driverLastName;
-    }
 
     public long getRegistration_no() {
         return registration_no;
     }
 
-    public void setRegistration_no(long registration_no) {
-        this.registration_no = registration_no;
-    }
 
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
-    public long getId() {
+
+    public String getId() {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    @Override
+    public String toString() {
+        return "Driver{" +
+                "driverFirstName='" + driverFirstName + '\'' +
+                ", driverLastName='" + driverLastName + '\'' +
+                ", age=" + age +
+                ", id='" + id + '\'' +
+                ", registration_no=" + registration_no +
+                ", officers=" + officers +
+                '}';
     }
 
 
     public static class Builder {
         private String driverFirstName, driverLastName;
         private int age;
-        private long id;
+        private String id;
         private long registration_no;
 
 
-        public Builder id (long id){
+        public Builder id (String id){
             this.id = id;
             return this;
         }
