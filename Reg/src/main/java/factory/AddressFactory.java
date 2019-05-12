@@ -1,6 +1,6 @@
 package factory;
 
-import Driver.Address;
+import domain.Driver.Address;
 
 public class AddressFactory {
 

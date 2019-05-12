@@ -1,11 +1,11 @@
 package factory;
 
 
-import Driver.Driver;
+import domain.Driver.Driver;
 
 public class DriverFactory {
 
-    public static Driver getDriver(String driverFirstName, String driverLastName, int age, String id, long registration_no)
+    public static Driver getDriver(String driverFirstName, String driverLastName, int age, String id,String registration_no)
     {
         return new Driver.Builder().age(age)
                 .driverFirstName(driverFirstName)

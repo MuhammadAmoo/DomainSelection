@@ -1,7 +1,7 @@
 package factory;
 
 import java.util.Date;
-import Driver.License_no;
+import domain.Driver.License_no;
 
 
 public class License_noFactory {

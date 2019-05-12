@@ -1,9 +1,7 @@
 package factory;
 
-import Driver.Address;
+import domain.Driver.Address;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class AddressFactoryTest {
 

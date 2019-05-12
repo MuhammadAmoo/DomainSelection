@@ -1,6 +1,6 @@
 package factory;
 
-import Location.Location;
+import domain.Location.Location;
 
 public class LocationFactory {
 

@@ -1,6 +1,6 @@
 package factory;
 
-import Driver.Contact_info;
+import domain.Driver.Contact_info;
 
 public class Contact_infoFactory {
 
