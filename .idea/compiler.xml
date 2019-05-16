@@ -2,19 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for Reg" enabled="true">
+        <sourceOutputDir name="Reg/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="Reg/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Reg" />
+        <module name="DomainSelection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DomainSelection" target="8" />
       <module name="Reg" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DomainSelection" options="-parameters" />
       <module name="Reg" options="-parameters" />
     </option>
   </component>
