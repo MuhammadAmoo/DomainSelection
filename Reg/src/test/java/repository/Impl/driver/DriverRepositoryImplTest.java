@@ -1,7 +1,8 @@
 package repository.Impl.driver;
 
-import domain.Driver.Driver;
-import factory.DriverFactory;
+import com.amoo.domain.Driver.Driver;
+import com.amoo.factory.DriverFactory;
+import com.amoo.repository.Impl.driver.DriverRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +18,7 @@ public class DriverRepositoryImplTest {
 
     @Test
     public void create() {
-        Driver driver = DriverFactory.getDriver("Muhammad", "Amoo", 22, "9705235079089", "CA92345");
+        Driver driver = DriverFactory.getDriver("Muhammad", "amoo", 22, "9705235079089", "CA92345");
         drive.create(driver);
         assertNotNull(drive.getAll());
         System.out.println(drive.getAll());
@@ -26,7 +27,7 @@ public class DriverRepositoryImplTest {
 
     @Test
     public void read() {
-        Driver driver = DriverFactory.getDriver("Muhammad", "Amoo", 22, "9705235079089", "CA92345");
+        Driver driver = DriverFactory.getDriver("Muhammad", "amoo", 22, "9705235079089", "CA92345");
         drive.create(driver);
         assertNotNull(drive.read("CA5465"));
         System.out.println(drive.read("CA5465"));
@@ -37,7 +38,7 @@ public class DriverRepositoryImplTest {
 
     @Test
     public void update() {
-        Driver driver = DriverFactory.getDriver("Muhammad", "Amoo", 22, "9705235079089", "CA92345");
+        Driver driver = DriverFactory.getDriver("Muhammad", "amoo", 22, "9705235079089", "CA92345");
         drive.create(driver);
         assertNotNull(drive.getAll());
         System.out.println(drive.getAll());
@@ -51,7 +52,7 @@ public class DriverRepositoryImplTest {
 
     @Test
     public void delete() {
-        Driver driver = DriverFactory.getDriver("Muhammad", "Amoo", 22, "9705235079089", "CA92345");
+        Driver driver = DriverFactory.getDriver("Muhammad", "amoo", 22, "9705235079089", "CA92345");
         drive.create(driver);
         assertNotNull(drive.read("CA5465"));
 
