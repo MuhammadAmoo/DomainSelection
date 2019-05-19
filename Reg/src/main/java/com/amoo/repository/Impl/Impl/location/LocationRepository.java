@@ -1,7 +1,7 @@
-package com.amoo.repository.Impl.location;
+package com.amoo.repository.Impl.Impl.location;
 
 import com.amoo.domain.Location.Location;
-import com.amoo.repository.IRepository;
+import com.amoo.repository.Impl.IRepository;
 
 import java.util.Set;
 

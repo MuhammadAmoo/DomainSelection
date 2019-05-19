@@ -1,4 +1,4 @@
-package com.amoo.repository;
+package com.amoo.repository.Impl;
 
 public interface IRepository<T, ID> {
     T create(T t);

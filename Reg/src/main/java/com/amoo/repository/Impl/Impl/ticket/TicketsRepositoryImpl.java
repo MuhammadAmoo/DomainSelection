@@ -1,4 +1,4 @@
-package com.amoo.repository.Impl.ticket;
+package com.amoo.repository.Impl.Impl.ticket;
 
 import com.amoo.domain.Tickets.Ticket;
 

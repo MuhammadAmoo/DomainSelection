@@ -1,7 +1,7 @@
-package com.amoo.repository.Impl.driver;
+package com.amoo.repository.Impl.Impl.driver;
 
 import com.amoo.domain.Driver.Driver;
-import com.amoo.repository.IRepository;
+import com.amoo.repository.Impl.IRepository;
 
 import java.util.Set;
 

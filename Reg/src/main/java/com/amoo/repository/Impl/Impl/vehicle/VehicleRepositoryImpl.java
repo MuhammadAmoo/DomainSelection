@@ -1,4 +1,4 @@
-package com.amoo.repository.Impl.vehicle;
+package com.amoo.repository.Impl.Impl.vehicle;
 
 import com.amoo.domain.Vehicles.Vehicle;
 

@@ -1,8 +1,8 @@
-package com.amoo.repository.driver;
+package com.amoo.repository.impl.driver;
 
 import com.amoo.domain.Driver.Driver;
 import com.amoo.factory.DriverFactory;
-import com.amoo.repository.Impl.driver.DriverRepositoryImpl;
+import com.amoo.repository.Impl.Impl.driver.DriverRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;
 

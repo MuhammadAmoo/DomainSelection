@@ -1,4 +1,4 @@
-package com.amoo.repository.Impl.lawEnforcer;
+package com.amoo.repository.Impl.Impl.lawEnforcer;
 
 import com.amoo.domain.LawEnforcer.LawEnforcer;
 

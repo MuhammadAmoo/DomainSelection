@@ -1,7 +1,7 @@
-package com.amoo.repository.Impl.lawEnforcer;
+package com.amoo.repository.Impl.Impl.lawEnforcer;
 
 import com.amoo.domain.LawEnforcer.LawEnforcer;
-import com.amoo.repository.IRepository;
+import com.amoo.repository.Impl.IRepository;
 
 import java.util.Set;
 

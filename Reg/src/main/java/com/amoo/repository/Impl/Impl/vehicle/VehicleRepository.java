@@ -1,7 +1,7 @@
-package com.amoo.repository.Impl.vehicle;
+package com.amoo.repository.Impl.Impl.vehicle;
 
 import com.amoo.domain.Vehicles.Vehicle;
-import com.amoo.repository.IRepository;
+import com.amoo.repository.Impl.IRepository;
 
 import java.util.Set;
 
