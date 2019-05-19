@@ -1,6 +1,8 @@
 package com.amoo.domain.Tickets;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+@EntityScan
 public class Ref_Ticket_Status {
 
     private String status_description;

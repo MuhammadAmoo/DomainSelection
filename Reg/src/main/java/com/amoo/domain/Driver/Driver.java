@@ -56,7 +56,7 @@ public class Driver {
 
     @Override
     public String toString() {
-        return "domain.Driver{" +
+        return "com.amoo.domain.Driver{" +
                 "driverFirstName='" + driverFirstName + '\'' +
                 ", driverLastName='" + driverLastName + '\'' +
                 ", age=" + age +

@@ -1,18 +1,17 @@
 package com.amoo.domain.Driver;
 
-import java.util.Date;
 
 public class License_no {
 
  private long license_no;
- private Date expiryDate;
+ private String expiryString;
 
  private License_no(){}
 
 
  private License_no(Builder builder){
      this.license_no = builder.license_no;
-     this.expiryDate = builder.expiryDate;
+     this.expiryString = builder.expiryDate;
 
 
  }
@@ -26,19 +25,19 @@ public class License_no {
         this.license_no = license_no;
     }
 
-    public Date getExpiryDate() {
-        return expiryDate;
+    public String getExpiryDate() {
+        return expiryString;
     }
 
-    public void setExpiryDate(Date expiryDate) {
-        this.expiryDate = expiryDate;
+    public void setExpiryDate(String expiryString) {
+        this.expiryString = expiryString;
     }
 
 
     public static class Builder {
 
         private long license_no;
-        private Date expiryDate;
+        private String expiryDate;
 
         public Builder license_no (long license_no){
             this.license_no = license_no;
@@ -46,7 +45,7 @@ public class License_no {
 
         }
 
-        public Builder expiryDate (Date expiryDate){
+        public Builder expiryDate (String expiryDate){
             this.expiryDate = expiryDate;
             return this;
 

@@ -1,10 +1,13 @@
 package com.amoo.repository.Impl.driver;
 
 import com.amoo.domain.Driver.Driver;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+
+@Repository
 public class
 DriverRepositoryImpl implements DriverRepository {
 
