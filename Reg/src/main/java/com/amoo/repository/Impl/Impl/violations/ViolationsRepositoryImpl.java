@@ -1,10 +1,12 @@
 package com.amoo.repository.Impl.Impl.violations;
 
 import com.amoo.domain.Violations.Violation;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("Violation")
 public class ViolationsRepositoryImpl implements ViolationsRepository{
 
     private static ViolationsRepositoryImpl repository = null;

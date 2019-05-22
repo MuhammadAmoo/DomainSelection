@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-@Repository
+@Repository("Driver")
 public class
 DriverRepositoryImpl implements DriverRepository {
 

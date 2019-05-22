@@ -2,10 +2,12 @@ package com.amoo.repository.Impl.Impl.location;
 
 
 import com.amoo.domain.Location.Location;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("Location")
 public class LocationRepositoryImpl implements LocationRepository {
 
     private static LocationRepositoryImpl repository = null;

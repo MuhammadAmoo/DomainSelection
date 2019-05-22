@@ -11,8 +11,10 @@ public class IndexController {
 
  @GetMapping("/")
  @ResponseBody
- public String getWebpage(){
-     return "Welcome to the home page";
 
-     }
+ public String getWebpage()
+        {
+        return "Welcome to the home page";
+        }
+
 }

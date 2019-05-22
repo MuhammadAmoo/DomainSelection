@@ -30,6 +30,15 @@ public class VehicleController {
     }
 
 
+    @GetMapping("/read/{registration_no}")
+    @ResponseBody
+    public void read(@PathVariable String registration_no)
+    {
+        service.read(registration_no);
+
+    }
+
+
     @GetMapping("/delete/{registration_no}")
     @ResponseBody
     public void delete(@PathVariable String registration_no)

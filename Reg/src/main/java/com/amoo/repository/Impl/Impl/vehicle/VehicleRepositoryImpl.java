@@ -1,10 +1,12 @@
 package com.amoo.repository.Impl.Impl.vehicle;
 
 import com.amoo.domain.Vehicles.Vehicle;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("Vehicle")
 public class VehicleRepositoryImpl implements VehicleRepository{
 
     private static VehicleRepositoryImpl repository = null;

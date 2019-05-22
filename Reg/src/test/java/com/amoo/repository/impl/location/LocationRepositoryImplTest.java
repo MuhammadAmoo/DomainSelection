@@ -23,8 +23,6 @@ public class LocationRepositoryImplTest {
         loc.create(location);
         assertNotNull(loc.getAll());
         System.out.println(loc.getAll());
-
-
     }
 
     @Test

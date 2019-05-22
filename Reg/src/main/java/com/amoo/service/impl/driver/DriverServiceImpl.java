@@ -3,9 +3,11 @@ package com.amoo.service.impl.driver;
 import com.amoo.domain.Driver.Driver;
 import com.amoo.repository.Impl.Impl.driver.DriverRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service("DriverServiceImpl")
 public class DriverServiceImpl implements DriverService {
 
     @Autowired

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("LocationServiceImpl")
 public class LocationServiceImpl implements LocationService {
 
     @Autowired

@@ -1,10 +1,12 @@
 package com.amoo.repository.Impl.Impl.ticket;
 
 import com.amoo.domain.Tickets.Ticket;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("Ticket")
 public class TicketsRepositoryImpl implements TicketsRepository {
 
     private static TicketsRepositoryImpl repository = null;
