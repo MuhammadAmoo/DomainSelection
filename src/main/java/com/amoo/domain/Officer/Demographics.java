@@ -8,7 +8,7 @@ public class Demographics {
     private Demographics(){}
 
 
-    private Demographics(Demographics.Builder builder) {
+    private Demographics(Builder builder) {
         this.age = builder.age;
         this.gender = builder.gender;
 
@@ -30,12 +30,12 @@ public class Demographics {
         private int age;
         private String gender;
 
-        public Demographics.Builder age (int age){
+        public Builder age (int age){
             this.age = age;
             return this;
         }
 
-            public Demographics.Builder gender (String gender){
+            public Builder gender (String gender){
             this.gender = gender;
             return this;
         }

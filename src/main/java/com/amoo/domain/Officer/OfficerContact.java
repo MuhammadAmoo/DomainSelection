@@ -6,7 +6,7 @@ public class OfficerContact {
 
     private OfficerContact(){}
 
-    private OfficerContact(OfficerContact.Builder builder) {
+    private OfficerContact(Builder builder) {
         this.cellNumber = builder.cellNumber;
         this.homeNumber = builder.homeNumber;
 
@@ -24,12 +24,12 @@ public class OfficerContact {
     public static class Builder {
         private int cellNumber, homeNumber;
 
-        public OfficerContact.Builder cellNumber (int cellNumber){
+        public Builder cellNumber (int cellNumber){
             this.cellNumber = cellNumber;
             return this;
         }
 
-        public OfficerContact.Builder homeNumber (int homeNumber){
+        public Builder homeNumber (int homeNumber){
             this.homeNumber = homeNumber;
             return this;
         }

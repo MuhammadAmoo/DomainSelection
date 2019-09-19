@@ -7,7 +7,7 @@ public class Violater_vehicle {
 
     private Violater_vehicle(){}
 
-    private Violater_vehicle(Violater_vehicle.Builder builder) {
+    private Violater_vehicle(Builder builder) {
         this.violater_id = builder.violater_id;
         this.licence_number = builder.licence_number;
 
@@ -27,12 +27,12 @@ public class Violater_vehicle {
         private int violater_id;
         private String licence_number;
 
-        public Violater_vehicle.Builder violater_id(int violater_id){
+        public Builder violater_id(int violater_id){
             this.violater_id = violater_id;
             return this;
         }
 
-        public Violater_vehicle.Builder licence_number(String licence_number){
+        public Builder licence_number(String licence_number){
             this.licence_number = licence_number;
             return this;
         }

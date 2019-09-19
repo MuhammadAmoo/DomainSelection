@@ -2,7 +2,7 @@ package com.amoo.repository.impl.vehicle;
 
 import com.amoo.domain.Vehicles.Vehicle;
 import com.amoo.factory.VehicleFactory;
-import com.amoo.repository.Impl.Impl.vehicle.VehicleRepositoryImpl;
+import com.amoo.repository.Impl.vehicle.VehicleRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;
 

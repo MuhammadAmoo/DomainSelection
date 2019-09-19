@@ -8,7 +8,7 @@ public class Branch {
 
 
 
-    private Branch (Branch.Builder builder){
+    private Branch (Builder builder){
         this.brnch_code = builder.brnch_code;
 
     }
@@ -19,7 +19,7 @@ public class Branch {
     public static class Builder {
         private  String brnch_code;
 
-        public Branch.Builder brnch_code (String brnch_code){
+        public Builder brnch_code (String brnch_code){
             this.brnch_code = brnch_code;
             return this;
 

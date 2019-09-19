@@ -8,8 +8,6 @@ import static org.junit.Assert.*;
 
 public class DriverFactoryTest {
 
-
-
     @Test
     public void getDriver() {
         Driver driv = DriverFactory.getDriver(

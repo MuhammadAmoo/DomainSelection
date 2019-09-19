@@ -7,7 +7,7 @@ public class Ticket {
 
     private Ticket(){}
 
-    private Ticket(Ticket.Builder builder) {
+    private Ticket(Builder builder) {
         this.ticket_no = builder.ticket_no;
         this.date_paid = builder.date_paid;
         this.date_cancelled = builder.date_cancelled;
@@ -33,17 +33,17 @@ public class Ticket {
         private String date_paid, date_cancelled;
 
 
-        public Ticket.Builder ticket_no (int ticket_no){
+        public Builder ticket_no (int ticket_no){
             this.ticket_no = ticket_no;
             return this;
         }
 
-        public Ticket.Builder date_paid (String date_paid){
+        public Builder date_paid (String date_paid){
             this.date_paid = date_paid;
             return this;
         }
 
-        public Ticket.Builder date_cancelled (String date_cancelled){
+        public Builder date_cancelled (String date_cancelled){
             this.date_cancelled = date_cancelled;
             return this;
         }

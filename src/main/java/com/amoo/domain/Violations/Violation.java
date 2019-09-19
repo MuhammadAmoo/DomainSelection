@@ -8,7 +8,7 @@ public class Violation {
     private Violation(){}
 
 
-    private Violation(Violation.Builder builder) {
+    private Violation(Builder builder) {
         this.violation_id = builder.violation_id;
         this.date_violation = builder.date_violation;
         this.time_violation = builder.time_violation;
@@ -38,22 +38,22 @@ public class Violation {
         private int violation_id;
         private String date_violation, time_violation, other_details;
 
-        public Violation.Builder id (int id){
+        public Builder id (int id){
             this.violation_id = violation_id;
             return this;
         }
 
-        public Violation.Builder date_violation (String date_violation){
+        public Builder date_violation (String date_violation){
             this.date_violation = date_violation;
             return this;
         }
 
-        public Violation.Builder time_violation (String time_violation){
+        public Builder time_violation (String time_violation){
             this.time_violation = time_violation;
             return this;
         }
 
-        public Violation.Builder other_details (String other_details){
+        public Builder other_details (String other_details){
             this.other_details = other_details;
             return this;
         }

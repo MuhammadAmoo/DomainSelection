@@ -8,7 +8,7 @@ public class ExpiredLicense {
 
     private ExpiredLicense(){}
 
-    private ExpiredLicense(ExpiredLicense.Builder builder) {
+    private ExpiredLicense(Builder builder) {
         this.id = builder.id;
         this.driver_id = builder.driver_id;
         this.licence_no = builder.licence_no;
@@ -31,17 +31,17 @@ public class ExpiredLicense {
        private int id, driver_id;
        private String licence_no;
 
-        public ExpiredLicense.Builder id (int id){
+        public Builder id (int id){
             this.id = id;
             return this;
         }
 
-        public ExpiredLicense.Builder driver_id (int driver_id){
+        public Builder driver_id (int driver_id){
             this.driver_id = driver_id;
             return this;
         }
 
-        public ExpiredLicense.Builder licence_no (String licence_no){
+        public Builder licence_no (String licence_no){
             this.licence_no = licence_no;
             return this;
         }

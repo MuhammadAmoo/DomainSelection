@@ -6,7 +6,7 @@ public class Vehicle_class {
 
     private Vehicle_class(){}
 
-    private Vehicle_class(Vehicle_class.Builder builder) {
+    private Vehicle_class(Builder builder) {
         this.class_code = builder.class_code;
 
     }
@@ -21,7 +21,7 @@ public class Vehicle_class {
         private String class_code;
 
 
-        public Vehicle_class.Builder class_code(String colour){
+        public Builder class_code(String colour){
             this.class_code = class_code;
             return this;
         }

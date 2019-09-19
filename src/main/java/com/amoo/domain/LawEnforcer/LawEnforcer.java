@@ -6,7 +6,7 @@ public class LawEnforcer {
 
     private LawEnforcer(){}
 
-    private LawEnforcer (LawEnforcer.Builder builder){
+    private LawEnforcer (Builder builder){
         this.name = builder.name;
 
     }
@@ -19,7 +19,7 @@ public class LawEnforcer {
     public static class Builder {
         private String name;
 
-        public LawEnforcer.Builder name(String name)
+        public Builder name(String name)
         {
             this.name = name;
             return this;

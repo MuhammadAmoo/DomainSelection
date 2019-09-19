@@ -13,7 +13,7 @@ public class Location {
 
     private Location(){}
 
-    private Location(Location.Builder builder) {
+    private Location(Builder builder) {
         this.location_id = builder.location_id;
         this.city = builder.city;
         this.zip_postcode = builder.zip_postcode;
@@ -58,27 +58,27 @@ public class Location {
         private String suburb;
         private String street;
 
-        public Location.Builder location_id (int location_id){
+        public Builder location_id (int location_id){
             this.location_id = location_id;
             return this;
         }
 
-        public Location.Builder city (String city){
+        public Builder city (String city){
             this.city = city;
             return this;
         }
 
-        public Location.Builder zip_postcode (int zip_postcode){
+        public Builder zip_postcode (int zip_postcode){
             this.zip_postcode = zip_postcode;
             return this;
         }
 
-        public Location.Builder suburb (String suburb){
+        public Builder suburb (String suburb){
             this.suburb = suburb;
             return this;
         }
 
-        public Location.Builder street (String street){
+        public Builder street (String street){
             this.street = street;
             return this;
         }

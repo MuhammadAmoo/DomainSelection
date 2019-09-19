@@ -1,7 +1,7 @@
 package com.amoo.service.impl.driver;
 
 import com.amoo.domain.Driver.Driver;
-import com.amoo.repository.Impl.Impl.driver.DriverRepositoryImpl;
+import com.amoo.repository.Impl.driver.DriverRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

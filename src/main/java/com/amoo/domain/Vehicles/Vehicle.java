@@ -10,7 +10,7 @@ public class Vehicle {
 
     private  Vehicle(){}
 
-    private Vehicle(Vehicle.Builder builder) {
+    private Vehicle(Builder builder) {
         this.registration_no = builder.registration_no;
         this.colour = builder.colour;
         this.model = builder.model;
@@ -40,23 +40,23 @@ public class Vehicle {
         private String registration_no, model, colour;
         private int year_of_manufacturer;
 
-        public Vehicle.Builder registration_no(String registration_no){
+        public Builder registration_no(String registration_no){
             this.registration_no = registration_no;
             return this;
         }
 
-        public Vehicle.Builder model(String model){
+        public Builder model(String model){
             this.model = model;
             return this;
         }
 
 
-        public Vehicle.Builder colour(String colour){
+        public Builder colour(String colour){
             this.colour = colour;
             return this;
         }
 
-        public Vehicle.Builder year_of_manufacturer(int year_of_manufacturer){
+        public Builder year_of_manufacturer(int year_of_manufacturer){
             this.year_of_manufacturer = year_of_manufacturer;
             return this;
         }

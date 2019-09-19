@@ -10,7 +10,7 @@ public class Ref_Ticket_Status {
 
     private Ref_Ticket_Status(){}
 
-    private Ref_Ticket_Status(Ref_Ticket_Status.Builder builder) {
+    private Ref_Ticket_Status(Builder builder) {
         this.status_description = builder.status_description;
         this.status_id = builder.status_id;
 
@@ -29,12 +29,12 @@ public class Ref_Ticket_Status {
         private String status_description;
         private int status_id;
 
-        public Ref_Ticket_Status.Builder status_id (int status_id){
+        public Builder status_id (int status_id){
             this.status_id = status_id;
             return this;
         }
 
-        public Ref_Ticket_Status.Builder status_description (String status_description){
+        public Builder status_description (String status_description){
             this.status_description = status_description;
             return this;
         }

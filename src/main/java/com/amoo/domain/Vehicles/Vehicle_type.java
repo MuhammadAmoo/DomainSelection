@@ -6,7 +6,7 @@ public class Vehicle_type {
 
     private Vehicle_type(){}
 
-    private Vehicle_type(Vehicle_type.Builder builder) {
+    private Vehicle_type(Builder builder) {
         this.type_code = builder.type_code;
         this.description = builder.description;
 
@@ -24,13 +24,13 @@ public class Vehicle_type {
     public static class Builder {
         private String type_code, description;
 
-        public Vehicle_type.Builder type_code(String type_code){
+        public Builder type_code(String type_code){
             this.type_code = type_code;
             return this;
         }
 
 
-        public Vehicle_type.Builder description(String description){
+        public Builder description(String description){
             this.description = description;
             return this;
         }

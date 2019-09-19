@@ -6,7 +6,7 @@ public class Rank {
 
     private Rank(){}
 
-    private Rank(Rank.Builder builder) {
+    private Rank(Builder builder) {
         this.description = builder.description;
 
     }
@@ -19,7 +19,7 @@ public class Rank {
     public static class Builder {
         private String description;
 
-        public Rank.Builder description (String description){
+        public Builder description (String description){
             this.description = description;
             return this;
         }
