@@ -1,4 +1,4 @@
-package com.amoo.Util;
+package com.amoo.util;
 
 public class Misc {
 }
