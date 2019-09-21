@@ -1,6 +1,6 @@
 package com.amoo.service.impl.driver;
 
-import com.amoo.domain.Driver.Driver;
+import com.amoo.domain.driver.Driver;
 import com.amoo.service.IService;
 
 import java.util.Set;

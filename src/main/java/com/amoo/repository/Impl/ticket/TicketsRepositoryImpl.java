@@ -1,6 +1,6 @@
 package com.amoo.repository.Impl.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
+import com.amoo.domain.ticket.Ticket;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;

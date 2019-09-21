@@ -1,7 +1,6 @@
 package com.amoo.factory.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
-import com.amoo.factory.TicketFactory;
+import com.amoo.domain.ticket.Ticket;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

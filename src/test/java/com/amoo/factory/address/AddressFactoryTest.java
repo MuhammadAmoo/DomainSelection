@@ -1,7 +1,7 @@
 package com.amoo.factory.address;
 
-import com.amoo.domain.Driver.Address;
-import com.amoo.factory.AddressFactory;
+import com.amoo.domain.driver.Address;
+import com.amoo.factory.driver.AddressFactory;
 import org.junit.Test;
 
 public class AddressFactoryTest {

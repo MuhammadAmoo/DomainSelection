@@ -1,6 +1,6 @@
 package com.amoo.repository.Impl.vehicle;
 
-import com.amoo.domain.Vehicles.Vehicle;
+import com.amoo.domain.vehicle.Vehicle;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;

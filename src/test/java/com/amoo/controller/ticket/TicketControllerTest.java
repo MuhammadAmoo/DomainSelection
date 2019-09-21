@@ -1,8 +1,8 @@
 package com.amoo.controller.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
-import com.amoo.domain.Vehicles.Vehicle;
-import com.amoo.factory.TicketFactory;
+import com.amoo.domain.ticket.Ticket;
+import com.amoo.domain.vehicle.Vehicle;
+import com.amoo.factory.ticket.TicketFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

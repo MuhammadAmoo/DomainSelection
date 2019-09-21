@@ -1,7 +1,7 @@
 package com.amoo.service.impl.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
-import com.amoo.factory.TicketFactory;
+import com.amoo.domain.ticket.Ticket;
+import com.amoo.factory.ticket.TicketFactory;
 import com.amoo.repository.Impl.ticket.TicketsRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;

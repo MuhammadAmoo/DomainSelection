@@ -1,6 +1,6 @@
 package com.amoo.service.impl.vehicle;
 
-import com.amoo.domain.Vehicles.Vehicle;
+import com.amoo.domain.vehicle.Vehicle;
 import com.amoo.service.IService;
 
 import java.util.Set;

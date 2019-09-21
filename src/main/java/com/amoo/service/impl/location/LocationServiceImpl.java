@@ -1,7 +1,7 @@
 package com.amoo.service.impl.location;
 
 
-import com.amoo.domain.Location.Location;
+import com.amoo.domain.location.Location;
 import com.amoo.repository.Impl.location.LocationRepository;
 import com.amoo.repository.Impl.location.LocationRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;

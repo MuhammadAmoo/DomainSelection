@@ -1,7 +1,7 @@
 package com.amoo.factory.license;
 
-import com.amoo.domain.Driver.License_no;
-import com.amoo.factory.License_noFactory;
+import com.amoo.domain.driver.License_no;
+import com.amoo.factory.driver.License_noFactory;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

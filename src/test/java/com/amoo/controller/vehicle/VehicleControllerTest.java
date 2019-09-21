@@ -1,7 +1,7 @@
 package com.amoo.controller.vehicle;
 
-import com.amoo.domain.Vehicles.Vehicle;
-import com.amoo.factory.VehicleFactory;
+import com.amoo.domain.vehicle.Vehicle;
+import com.amoo.factory.vehicle.VehicleFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

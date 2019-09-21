@@ -1,7 +1,7 @@
 package com.amoo.repository.impl.lawenforcer;
 
-import com.amoo.domain.LawEnforcer.LawEnforcer;
-import com.amoo.factory.LawEnforcerFactory;
+import com.amoo.domain.lawenforcer.LawEnforcer;
+import com.amoo.factory.lawenforcer.LawEnforcerFactory;
 import com.amoo.repository.Impl.lawEnforcer.LawEnforcerRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;

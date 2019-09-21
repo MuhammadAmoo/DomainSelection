@@ -1,6 +1,6 @@
 package com.amoo.service.impl.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
+import com.amoo.domain.ticket.Ticket;
 import com.amoo.repository.Impl.ticket.TicketsRepository;
 import com.amoo.repository.Impl.ticket.TicketsRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;

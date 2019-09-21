@@ -1,6 +1,6 @@
 package com.amoo.controller.location;
 
-import com.amoo.domain.Location.Location;
+import com.amoo.domain.location.Location;
 import com.amoo.service.impl.location.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

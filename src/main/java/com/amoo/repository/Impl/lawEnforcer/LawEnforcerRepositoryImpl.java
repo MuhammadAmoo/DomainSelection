@@ -1,6 +1,6 @@
 package com.amoo.repository.Impl.lawEnforcer;
 
-import com.amoo.domain.LawEnforcer.LawEnforcer;
+import com.amoo.domain.lawenforcer.LawEnforcer;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,7 +1,7 @@
 package com.amoo.repository.Impl.location;
 
 
-import com.amoo.domain.Location.Location;
+import com.amoo.domain.location.Location;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;

@@ -1,7 +1,6 @@
 package com.amoo.factory.driver;
 
-import com.amoo.domain.Driver.Driver;
-import com.amoo.factory.DriverFactory;
+import com.amoo.domain.driver.Driver;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

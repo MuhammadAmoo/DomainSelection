@@ -1,7 +1,7 @@
 package com.amoo.controller.driver;
 
-import com.amoo.domain.Driver.Driver;
-import com.amoo.factory.DriverFactory;
+import com.amoo.domain.driver.Driver;
+import com.amoo.factory.driver.DriverFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +15,6 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-
-
 public class DriverControllerTest {
 
     @Autowired
@@ -51,8 +49,6 @@ public class DriverControllerTest {
         assertNotNull(updatedDriver);
     }
 
-
-
     @Test
     public void delete() {
         String id = "5";
@@ -77,4 +73,15 @@ public class DriverControllerTest {
         ResponseEntity<String> response = restTemplate.exchange(baseURL + "/read/all", HttpMethod.GET, entity, String.class);
         assertNotNull(response.getBody());
     }
+
+    @Test
+    public void testSecurity() throws Exception{
+
+        ResponseEntity<String> result = restTemplate.withBasicAuth("amoo", "amoo")
+                .getForEntity(baseURL + "/getall", String.class);
+        System.out.println(result);
+        assertEquals(HttpStatus.OK, result.getStatusCode());
+
+    }
+
 }

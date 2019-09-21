@@ -1,8 +1,6 @@
 package com.amoo.factory.vehicle;
 
-import com.amoo.domain.Vehicles.Vehicle;
-import com.amoo.factory.VehicleFactory;
-import org.junit.Before;
+import com.amoo.domain.vehicle.Vehicle;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

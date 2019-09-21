@@ -1,7 +1,6 @@
 package com.amoo.factory.location;
 
-import com.amoo.domain.Location.Location;
-import com.amoo.factory.LocationFactory;
+import com.amoo.domain.location.Location;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

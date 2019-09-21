@@ -1,6 +1,6 @@
 package com.amoo.repository.Impl.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
+import com.amoo.domain.ticket.Ticket;
 import com.amoo.repository.IRepository;
 
 import java.util.Set;

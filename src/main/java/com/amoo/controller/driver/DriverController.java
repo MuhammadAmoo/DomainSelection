@@ -1,16 +1,17 @@
 package com.amoo.controller.driver;
 
-import com.amoo.domain.Driver.Driver;
+import com.amoo.domain.driver.Driver;
 import com.amoo.service.impl.driver.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Set;
+
 @RestController
 @RequestMapping("/driver")
-
 public class DriverController {
-    @Autowired
 
+    @Autowired
     private DriverService service;
 
     @PostMapping("/create")
@@ -35,6 +36,11 @@ public class DriverController {
     {
         service.delete(driver_no);
 
+    }
+
+    @GetMapping("/getall")
+    public Set<Driver> getAll(){
+        return service.getAll();
     }
 
 }

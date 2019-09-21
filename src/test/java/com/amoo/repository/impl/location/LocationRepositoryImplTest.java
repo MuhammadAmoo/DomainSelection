@@ -1,7 +1,7 @@
 package com.amoo.repository.impl.location;
 
-import com.amoo.domain.Location.Location;
-import com.amoo.factory.LocationFactory;
+import com.amoo.domain.location.Location;
+import com.amoo.factory.location.LocationFactory;
 import com.amoo.repository.Impl.location.LocationRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;

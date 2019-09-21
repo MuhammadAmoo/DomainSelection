@@ -1,15 +1,13 @@
 package com.amoo.repository.Impl.driver;
 
-import com.amoo.domain.Driver.Driver;
+import com.amoo.domain.driver.Driver;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
-
 @Repository("Driver")
-public class
-DriverRepositoryImpl implements DriverRepository {
+public class DriverRepositoryImpl implements DriverRepository {
 
     private static DriverRepositoryImpl repository = null;
             Set<Driver> drivers;

@@ -1,7 +1,7 @@
 package com.amoo.controller.location;
 
-import com.amoo.domain.Location.Location;
-import com.amoo.factory.LocationFactory;
+import com.amoo.domain.location.Location;
+import com.amoo.factory.location.LocationFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

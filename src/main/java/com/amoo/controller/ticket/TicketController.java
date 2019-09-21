@@ -1,6 +1,6 @@
 package com.amoo.controller.ticket;
 
-import com.amoo.domain.Tickets.Ticket;
+import com.amoo.domain.ticket.Ticket;
 import com.amoo.service.impl.ticket.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
