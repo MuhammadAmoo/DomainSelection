@@ -1,9 +1,13 @@
 package com.amoo.domain.location;
 
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Location {
 
-
+    @Id
     private int location_id;
     private String city;
     private int zip_postcode;
@@ -11,9 +15,9 @@ public class Location {
     private String street;
 
 
-    private Location(){}
+    public Location(){}
 
-    private Location(Builder builder) {
+    public Location(Builder builder) {
         this.location_id = builder.location_id;
         this.city = builder.city;
         this.zip_postcode = builder.zip_postcode;

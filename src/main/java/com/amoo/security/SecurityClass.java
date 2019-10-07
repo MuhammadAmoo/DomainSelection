@@ -24,7 +24,7 @@ public class SecurityClass extends WebSecurityConfigurerAdapter {
                 .and()
                 .withUser("muhammad")
                 .password(encoder().encode("muhammad"))
-                .roles("USER", "ADMIN");
+                .roles("USER");
 
     }
 

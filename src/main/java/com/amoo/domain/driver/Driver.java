@@ -2,22 +2,26 @@ package com.amoo.domain.driver;
 
 import com.amoo.domain.officer.Officer;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
+@Entity
 
 public class Driver {
 
     private String driverFirstName, driverLastName;
     private int age;
+    @Id
     private String id;
     private String registration_no;
 
-    private Set<Officer> officers;
+    //private Set<Officer> officers;
 
 
-    private Driver(){}
+    public Driver(){}
 
 
-    private Driver(Builder builder) {
+    public Driver(Builder builder) {
         this.id = builder.id;
         this.age = builder.age;
         this.driverFirstName = builder.driverFirstName;
@@ -54,17 +58,17 @@ public class Driver {
         return id;
     }
 
-    @Override
-    public String toString() {
-        return "com.amoo.domain.driver{" +
-                "driverFirstName='" + driverFirstName + '\'' +
-                ", driverLastName='" + driverLastName + '\'' +
-                ", age=" + age +
-                ", id='" + id + '\'' +
-                ", registration_no=" + registration_no +
-                ", officers=" + officers +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "com.amoo.domain.driver{" +
+//                "driverFirstName='" + driverFirstName + '\'' +
+//                ", driverLastName='" + driverLastName + '\'' +
+//                ", age=" + age +
+//                ", id='" + id + '\'' +
+//                ", registration_no=" + registration_no +
+//                ", officers=" + officers +
+//                '}';
+//    }
 
 
     public static class Builder {

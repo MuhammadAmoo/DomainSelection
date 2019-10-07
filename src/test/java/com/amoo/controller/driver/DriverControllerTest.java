@@ -77,7 +77,7 @@ public class DriverControllerTest {
     @Test
     public void testSecurity() throws Exception{
 
-        ResponseEntity<String> result = restTemplate.withBasicAuth("amoo", "amoo")
+        ResponseEntity<String> result = restTemplate.withBasicAuth("muhammad", "muhammad")
                 .getForEntity(baseURL + "/getall", String.class);
         System.out.println(result);
         assertEquals(HttpStatus.OK, result.getStatusCode());

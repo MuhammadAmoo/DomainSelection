@@ -2,25 +2,28 @@ package com.amoo.service.impl.driver;
 
 import com.amoo.domain.driver.Driver;
 import com.amoo.repository.Impl.driver.DriverRepositoryImpl;
+import com.amoo.repository.Impl.driver.hibernateImpl.DriverRepositoryHibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Service("DriverServiceImpl")
 public class DriverServiceImpl implements DriverService {
 
     @Autowired
-    private DriverRepositoryImpl repository;
+    private DriverRepositoryHibernate repository;
 
     private DriverServiceImpl()
     {
-        this.repository = DriverRepositoryImpl.getDriver();
+
     }
+
 
     @Override
     public Set<Driver> getAll() {
-        return this.repository.getAll();
+        return new HashSet<>(this.repository.findAll());
     }
 
     @Override
@@ -30,7 +33,7 @@ public class DriverServiceImpl implements DriverService {
 
     @Override
     public Driver read(String string) {
-        return this.repository.read(string);
+        return this.repository.findById(string).orElse(null);
     }
 
     @Override
@@ -39,7 +42,7 @@ public class DriverServiceImpl implements DriverService {
     }
 
     @Override
-    public void delete(String string) {this.repository.delete(string);
+    public void delete(String string) {this.repository.deleteById(string);
     }
 
 }

@@ -1,14 +1,19 @@
 package com.amoo.domain.officer;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Officer {
 
 
     private String officerFirstName, officerLastName, rank;
+    @Id
     private int OfficerId;
 
-    private Officer(){}
+    public Officer(){}
 
-    private Officer(Builder builder) {
+    public Officer(Builder builder) {
         this.officerFirstName = builder.officerFirstName;
         this.officerLastName = builder.officerLastName;
         this.rank = builder.rank;
