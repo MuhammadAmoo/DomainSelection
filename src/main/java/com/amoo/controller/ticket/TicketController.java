@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 
 public class TicketController {
-@Autowired
 
+  @Autowired
   private TicketService service;
 
     @PostMapping("/create")

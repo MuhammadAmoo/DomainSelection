@@ -5,10 +5,10 @@ public class District {
     private String office_location;
     private String municipal_court;
 
-    private District(){}
+    public District(){}
 
 
-    private District(Builder builder) {
+    public District(Builder builder) {
         this.office_location = builder.office_location;
         this.municipal_court = builder.municipal_court;
 

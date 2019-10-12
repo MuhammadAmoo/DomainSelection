@@ -6,9 +6,9 @@ public class Address {
 
     private int address_id, postcode;
     private String area, street;
-    private Address(){}
+    public Address(){}
 
-    private Address (Builder builder){
+    public Address (Builder builder){
         this.address_id = builder.address_id;
         this.area = builder.area;
         this.street = builder.street;

@@ -4,11 +4,11 @@ public class Branch {
 
     private  String brnch_code;
 
-    private Branch(){}
+    public Branch(){}
 
 
 
-    private Branch (Builder builder){
+    public Branch (Builder builder){
         this.brnch_code = builder.brnch_code;
 
     }

@@ -5,9 +5,9 @@ public class Violater_vehicle {
     private int violater_id;
     private String licence_number;
 
-    private Violater_vehicle(){}
+    public Violater_vehicle(){}
 
-    private Violater_vehicle(Builder builder) {
+    public Violater_vehicle(Builder builder) {
         this.violater_id = builder.violater_id;
         this.licence_number = builder.licence_number;
 

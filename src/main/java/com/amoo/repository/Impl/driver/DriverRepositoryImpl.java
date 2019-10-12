@@ -12,7 +12,7 @@ public class DriverRepositoryImpl implements DriverRepository {
     private static DriverRepositoryImpl repository = null;
             Set<Driver> drivers;
 
-    private DriverRepositoryImpl (){
+    public DriverRepositoryImpl (){
         this.drivers = new HashSet<>();
     }
 

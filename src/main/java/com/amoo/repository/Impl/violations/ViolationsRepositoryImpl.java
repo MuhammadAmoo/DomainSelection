@@ -12,7 +12,7 @@ public class ViolationsRepositoryImpl implements ViolationsRepository{
     private static ViolationsRepositoryImpl repository = null;
     Set<Violation> violations;
 
-    private ViolationsRepositoryImpl (){
+    public ViolationsRepositoryImpl (){
         this.violations = new HashSet<>();
     }
 

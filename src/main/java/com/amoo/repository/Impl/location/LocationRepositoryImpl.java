@@ -13,7 +13,7 @@ public class LocationRepositoryImpl implements LocationRepository {
     private static LocationRepositoryImpl repository = null;
     Set<Location> loc;
 
-    private LocationRepositoryImpl (){
+    public LocationRepositoryImpl (){
         this.loc = new HashSet<>();
     }
 

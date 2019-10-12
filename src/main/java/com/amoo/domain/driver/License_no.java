@@ -6,10 +6,10 @@ public class License_no {
  private long license_no;
  private String expiryString;
 
- private License_no(){}
+ public License_no(){}
 
 
- private License_no(Builder builder){
+ public License_no(Builder builder){
      this.license_no = builder.license_no;
      this.expiryString = builder.expiryDate;
 

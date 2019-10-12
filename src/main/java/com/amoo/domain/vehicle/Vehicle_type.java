@@ -4,9 +4,9 @@ public class Vehicle_type {
 
     private String type_code, description;
 
-    private Vehicle_type(){}
+    public Vehicle_type(){}
 
-    private Vehicle_type(Builder builder) {
+    public Vehicle_type(Builder builder) {
         this.type_code = builder.type_code;
         this.description = builder.description;
 

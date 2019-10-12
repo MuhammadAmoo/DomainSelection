@@ -6,9 +6,9 @@ public class Contact_info {
     private long tel_number;
     private String email;
 
-    private Contact_info(){}
+    public Contact_info(){}
 
-    private Contact_info(Builder builder){
+    public Contact_info(Builder builder){
         this.email = builder.email;
         this.tel_number = builder.tel_number;
 

@@ -14,7 +14,7 @@ public class TicketServiceImpl implements TicketService {
     @Autowired
     private TicketsRepository repository;
 
-    private TicketServiceImpl(){this.repository = TicketsRepositoryImpl.getTicket();}
+    public TicketServiceImpl(){this.repository = TicketsRepositoryImpl.getTicket();}
 
     @Override
     public Set<Ticket> getAll() {

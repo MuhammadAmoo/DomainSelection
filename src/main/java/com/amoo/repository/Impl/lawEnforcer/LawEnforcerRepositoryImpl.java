@@ -10,7 +10,7 @@ public class LawEnforcerRepositoryImpl implements LawEnforcerRepository {
     private static LawEnforcerRepositoryImpl repository = null;
     Set<LawEnforcer> lawenforcers;
 
-    private LawEnforcerRepositoryImpl (){
+    public LawEnforcerRepositoryImpl (){
         this.lawenforcers = new HashSet<>();
     }
 

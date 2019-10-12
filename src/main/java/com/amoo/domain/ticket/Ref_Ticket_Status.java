@@ -8,9 +8,9 @@ public class Ref_Ticket_Status {
     private String status_description;
     private int status_id;
 
-    private Ref_Ticket_Status(){}
+    public Ref_Ticket_Status(){}
 
-    private Ref_Ticket_Status(Builder builder) {
+    public Ref_Ticket_Status(Builder builder) {
         this.status_description = builder.status_description;
         this.status_id = builder.status_id;
 

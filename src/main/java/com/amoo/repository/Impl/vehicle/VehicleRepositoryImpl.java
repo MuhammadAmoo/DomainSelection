@@ -6,13 +6,13 @@ import org.springframework.stereotype.Repository;
 import java.util.HashSet;
 import java.util.Set;
 
-@Repository("Vehicle")
+@Repository("vehicle")
 public class VehicleRepositoryImpl implements VehicleRepository{
 
     private static VehicleRepositoryImpl repository = null;
     Set<Vehicle> vehicles;
 
-    private VehicleRepositoryImpl (){
+    public VehicleRepositoryImpl (){
         this.vehicles = new HashSet<>();
     }
 

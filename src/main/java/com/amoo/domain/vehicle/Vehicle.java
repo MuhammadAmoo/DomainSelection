@@ -8,9 +8,9 @@ public class Vehicle {
     private int year_of_manufacturer;
 
 
-    private  Vehicle(){}
+    public   Vehicle(){}
 
-    private Vehicle(Builder builder) {
+    public Vehicle(Builder builder) {
         this.registration_no = builder.registration_no;
         this.colour = builder.colour;
         this.model = builder.model;

@@ -5,12 +5,9 @@ public class ApplicableLaw {
 
     private String offense;
 
-    private ApplicableLaw(){}
+    public ApplicableLaw(){}
 
-
-
-
-    private ApplicableLaw (Builder builder){
+    public ApplicableLaw (Builder builder){
         this.offense = builder.offense;
 
     }

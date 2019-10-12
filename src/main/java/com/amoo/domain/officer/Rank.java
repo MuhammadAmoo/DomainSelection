@@ -4,9 +4,9 @@ public class Rank {
 
     private String description;
 
-    private Rank(){}
+    public Rank(){}
 
-    private Rank(Builder builder) {
+    public Rank(Builder builder) {
         this.description = builder.description;
 
     }

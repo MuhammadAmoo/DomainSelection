@@ -4,7 +4,7 @@ public class OfficerContact {
 
     private int cellNumber, homeNumber;
 
-    private OfficerContact(){}
+    public OfficerContact(){}
 
     private OfficerContact(Builder builder) {
         this.cellNumber = builder.cellNumber;

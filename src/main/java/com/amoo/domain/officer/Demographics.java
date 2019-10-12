@@ -5,10 +5,10 @@ public class Demographics {
     private int age;
     private String gender;
 
-    private Demographics(){}
+    public Demographics(){}
 
 
-    private Demographics(Builder builder) {
+    public Demographics(Builder builder) {
         this.age = builder.age;
         this.gender = builder.gender;
 

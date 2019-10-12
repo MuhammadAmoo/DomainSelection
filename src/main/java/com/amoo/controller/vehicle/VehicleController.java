@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/vehicle")
-
 public class VehicleController {
     @Autowired
-
     private VehicleService service;
 
     @PostMapping("/create")

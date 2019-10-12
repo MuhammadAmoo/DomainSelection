@@ -4,9 +4,12 @@ public class Vehicle_manufacturer {
 
 private String manufacturer_code, manufacturer_name;
 
-private Vehicle_manufacturer(){}
+public Vehicle_manufacturer(){}
 
-    private Vehicle_manufacturer(Builder builder) {
+
+
+
+    public Vehicle_manufacturer(Builder builder) {
         this.manufacturer_code = builder.manufacturer_code;
         this.manufacturer_name = builder.manufacturer_name;
 

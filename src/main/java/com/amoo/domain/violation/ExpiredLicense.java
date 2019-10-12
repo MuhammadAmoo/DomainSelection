@@ -6,9 +6,9 @@ public class ExpiredLicense {
     private int id, driver_id;
     private String licence_no;
 
-    private ExpiredLicense(){}
+    public ExpiredLicense(){}
 
-    private ExpiredLicense(Builder builder) {
+    public ExpiredLicense(Builder builder) {
         this.id = builder.id;
         this.driver_id = builder.driver_id;
         this.licence_no = builder.licence_no;

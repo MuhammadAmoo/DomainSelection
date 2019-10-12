@@ -4,9 +4,9 @@ public class LawEnforcer {
 
     private String name;
 
-    private LawEnforcer(){}
+    public LawEnforcer(){}
 
-    private LawEnforcer (Builder builder){
+    public LawEnforcer (Builder builder){
         this.name = builder.name;
 
     }

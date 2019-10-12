@@ -5,10 +5,10 @@ public class StolenVehicle {
     private int id;
     private String desc;
 
-    private StolenVehicle(){}
+    public StolenVehicle(){}
 
 
-    private StolenVehicle(Builder builder) {
+    public StolenVehicle(Builder builder) {
         this.id = builder.id;
         this.desc = builder.desc;
 

@@ -5,10 +5,10 @@ public class Violation {
     private int violation_id;
     private String date_violation, time_violation, other_details;
 
-    private Violation(){}
+    public Violation(){}
 
 
-    private Violation(Builder builder) {
+    public Violation(Builder builder) {
         this.violation_id = builder.violation_id;
         this.date_violation = builder.date_violation;
         this.time_violation = builder.time_violation;

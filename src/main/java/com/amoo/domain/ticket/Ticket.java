@@ -5,9 +5,9 @@ public class Ticket {
     private int ticket_no;
     private String date_paid, date_cancelled;
 
-    private Ticket(){}
+    public Ticket(){}
 
-    private Ticket(Builder builder) {
+    public Ticket(Builder builder) {
         this.ticket_no = builder.ticket_no;
         this.date_paid = builder.date_paid;
         this.date_cancelled = builder.date_cancelled;

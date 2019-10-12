@@ -5,10 +5,10 @@ public class Unroadworthy {
     private int id;
     private String description;
 
-    private Unroadworthy(){}
+    public Unroadworthy(){}
 
 
-    private Unroadworthy(Builder builder) {
+    public Unroadworthy(Builder builder) {
         this.id = builder.id;
         this.description = builder.description;
 

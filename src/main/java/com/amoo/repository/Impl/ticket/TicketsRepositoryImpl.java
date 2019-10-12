@@ -5,14 +5,13 @@ import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
-
-@Repository("Ticket")
+@Repository
 public class TicketsRepositoryImpl implements TicketsRepository {
 
     private static TicketsRepositoryImpl repository = null;
     private Set<Ticket> tickets;
 
-    private TicketsRepositoryImpl (){
+    public TicketsRepositoryImpl (){
         this.tickets = new HashSet<>();
     }
 
