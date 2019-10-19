@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8a09de-f41a-4ed0-875a-518953d1d9b9" name="Default Changelist" comment="Refactored Code">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/amoo.sql" afterDir="false" />
+    <list default="true" id="eb8a09de-f41a-4ed0-875a-518953d1d9b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/controller/ticket/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/controller/ticket/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/controller/vehicle/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/controller/vehicle/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/Contact_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/Contact_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/License_no.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/License_no.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/ApplicableLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/ApplicableLaw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/Contact_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/Contact_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/LawEnforcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/lawenforcer/LawEnforcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Demographics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Demographics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/District.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/District.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/OfficerContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/OfficerContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/ticket/Ref_Ticket_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/ticket/Ref_Ticket_Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/ticket/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/ticket/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle_class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle_manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle_manufacturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Vehicle_type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Violater_vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/vehicle/Violater_vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/ExpiredLicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/ExpiredLicense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/StolenVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/StolenVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/Unroadworthy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/Unroadworthy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/Violation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/violation/Violation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/driver/DriverRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/driver/DriverRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/lawEnforcer/LawEnforcerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/lawEnforcer/LawEnforcerRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/location/LocationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/location/LocationRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/ticket/TicketsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/ticket/TicketsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/ticket/TicketsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/ticket/TicketsRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/vehicle/VehicleRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/vehicle/VehicleRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/violations/ViolationsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/repository/Impl/violations/ViolationsRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/service/impl/ticket/TicketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/service/impl/ticket/TicketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/controller/driver/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/controller/driver/DriverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Officer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Officer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/amoo/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amoo/Registration.class" afterDir="false" />
@@ -169,7 +138,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -301,9 +270,10 @@
       <workItem from="1569065329579" duration="1953000" />
       <workItem from="1570650592577" duration="5278000" />
       <workItem from="1570891628764" duration="1232000" />
-      <workItem from="1570894206914" duration="1175000" />
-      <workItem from="1570896332586" duration="1617000" />
-      <workItem from="1570898448376" duration="540000" />
+      <workItem from="1570894206914" duration="2395000" />
+      <workItem from="1570898539875" duration="3410000" />
+      <workItem from="1570985462248" duration="523000" />
+      <workItem from="1571487838658" duration="1719000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored Code">
       <created>1568884243068</created>
@@ -333,40 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1570465097880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactored Code">
+      <created>1570895626933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570895626933</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 18h 52m 48s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 18h 53m 33s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 18h 54m 50s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 19h 01m 22s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 19h 01m 55s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 19h 18m 13s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.29 at 19h 18m 53s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.30 at 09h 51m 40s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.30 at 10h 42m 09s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverControllerTest_testSecurity - 2019.09.30 at 10h 42m 44s.xml">
-      <configuration name="DriverControllerTest.testSecurity" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -387,5 +332,89 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored Code" />
     <option name="LAST_COMMIT_MESSAGE" value="Refactored Code" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|DomainSelection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

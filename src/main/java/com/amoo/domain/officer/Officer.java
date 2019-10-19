@@ -1,5 +1,6 @@
 package com.amoo.domain.officer;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -7,7 +8,9 @@ import javax.persistence.Id;
 public class Officer {
 
 
-    private String officerFirstName, officerLastName, rank;
+    private String officerFirstName,  officerLastName;
+    @Column (name = "Ranks")
+    private String rank;
     @Id
     private int OfficerId;
 

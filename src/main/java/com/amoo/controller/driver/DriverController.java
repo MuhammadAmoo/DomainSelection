@@ -9,29 +9,26 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/driver")
+@CrossOrigin(origins="http://localhost:4200")
 public class DriverController {
 
     @Autowired
     private DriverService service;
 
     @PostMapping("/create")
-    @ResponseBody
-    public Driver create(Driver driver)
+    public Driver create(@RequestBody Driver driver)
     {
         return service.create(driver);
 
     }
 
-    @PostMapping("/update")
-    @ResponseBody
-    public Driver update(Driver driver)
+    @PutMapping("/update")
+    public Driver update(@RequestBody Driver driver)
     {
         return service.create(driver);
-
     }
 
-    @GetMapping("/delete/{driver_no}")
-    @ResponseBody
+    @DeleteMapping("/delete/{driver_no}")
     public void delete(@PathVariable String driver_no)
     {
         service.delete(driver_no);
