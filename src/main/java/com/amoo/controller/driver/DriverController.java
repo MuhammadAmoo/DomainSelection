@@ -28,6 +28,11 @@ public class DriverController {
         return service.create(driver);
     }
 
+    @GetMapping("/find/{driver_no}")
+    public Driver read(@PathVariable String driver_no){
+        return service.read(driver_no);
+    }
+
     @DeleteMapping("/delete/{driver_no}")
     public void delete(@PathVariable String driver_no)
     {

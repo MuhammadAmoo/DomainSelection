@@ -9,18 +9,15 @@ import org.springframework.stereotype.Service;
 import java.util.HashSet;
 import java.util.Set;
 
-@Service("DriverServiceImpl")
+@Service
 public class DriverServiceImpl implements DriverService {
 
     @Autowired
     private DriverRepositoryHibernate repository;
-
-    private DriverServiceImpl()
+    public DriverServiceImpl()
     {
 
     }
-
-
     @Override
     public Set<Driver> getAll() {
         return new HashSet<>(this.repository.findAll());
@@ -28,21 +25,22 @@ public class DriverServiceImpl implements DriverService {
 
     @Override
     public Driver create(Driver driver) {
-        return this.create(driver);
+        return repository.save(driver);
     }
 
     @Override
     public Driver read(String string) {
-        return this.repository.findById(string).orElse(null);
+        return repository.findById(string).orElse(null);
     }
 
     @Override
     public Driver update(Driver driver) {
-        return this.update(driver);
+        return repository.save(driver);
     }
 
     @Override
-    public void delete(String string) {this.repository.deleteById(string);
+    public void delete(String string) {
+        this.repository.deleteById(string);
     }
 
 }

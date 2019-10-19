@@ -1,8 +1,10 @@
 package com.amoo.domain.driver;
 
 import com.amoo.domain.officer.Officer;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Set;
 @Entity
@@ -12,6 +14,10 @@ public class Driver {
     private String driverFirstName, driverLastName;
     private int age;
     @Id
+    @GeneratedValue(generator = "uuid2")
+
+
+    @GenericGenerator(name = "uuid2", strategy = "uuid2")
     private String id;
     private String registration_no;
 

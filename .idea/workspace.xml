@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8a09de-f41a-4ed0-875a-518953d1d9b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DomainSelection.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/controller/driver/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/controller/driver/DriverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Officer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/officer/Officer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/domain/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/security/SecurityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/security/SecurityClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amoo/service/impl/driver/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amoo/service/impl/driver/DriverServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/amoo/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amoo/Registration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/amoo/Util/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amoo/Util/Misc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/amoo/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amoo/controller/IndexController.class" afterDir="false" />
@@ -274,6 +276,8 @@
       <workItem from="1570898539875" duration="3410000" />
       <workItem from="1570985462248" duration="523000" />
       <workItem from="1571487838658" duration="1719000" />
+      <workItem from="1571490212113" duration="461000" />
+      <workItem from="1571490975996" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored Code">
       <created>1568884243068</created>
@@ -332,89 +336,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored Code" />
     <option name="LAST_COMMIT_MESSAGE" value="Refactored Code" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|DomainSelection</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

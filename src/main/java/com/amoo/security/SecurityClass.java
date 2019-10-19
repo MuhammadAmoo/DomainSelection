@@ -34,7 +34,7 @@ public class SecurityClass extends WebSecurityConfigurerAdapter {
         http.httpBasic()
                 .and()
                 .authorizeRequests()
-                .antMatchers(HttpMethod.GET, "/driver/getall")
+                .antMatchers(HttpMethod.GET, "/vehicle/getall")
                 .hasRole("ADMIN")
                 .and()
                 .csrf().disable();
